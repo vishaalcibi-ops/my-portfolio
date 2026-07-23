@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-apple-gray-50 text-apple-gray-600 transition-colors duration-300;
+    @apply dark:bg-apple-gray-900 dark:text-apple-gray-100;
+  }
+
+  ::selection {
+    @apply bg-apple-blue/20 text-apple-gray-600 dark:text-white;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/70 backdrop-blur-xl border border-white/20;
+    @apply dark:bg-apple-gray-800/70 dark:border-white/10;
+  }
+
+  .glass-card {
+    @apply glass rounded-2xl shadow-lg shadow-black/5;
+    @apply dark:shadow-black/20;
+  }
+
+  .section-padding {
+    @apply py-20 md:py-28 lg:py-32;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-apple-blue via-blue-500 to-purple-500 bg-clip-text text-transparent;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full;
+    @apply bg-apple-blue text-white font-medium text-sm;
+    @apply hover:bg-apple-blue-hover transition-all duration-300;
+    @apply focus:outline-none focus:ring-2 focus:ring-apple-blue/50 focus:ring-offset-2;
+    @apply dark:focus:ring-offset-apple-gray-900;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full;
+    @apply bg-apple-gray-100 text-apple-gray-600 font-medium text-sm;
+    @apply hover:bg-apple-gray-200 transition-all duration-300;
+    @apply dark:bg-apple-gray-700 dark:text-apple-gray-100 dark:hover:bg-apple-gray-600;
+    @apply focus:outline-none focus:ring-2 focus:ring-apple-gray-300/50 focus:ring-offset-2;
+    @apply dark:focus:ring-offset-apple-gray-900;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-apple-gray-200 dark:bg-apple-gray-600 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-apple-gray-300 dark:bg-apple-gray-500;
+}
