@@ -5,7 +5,7 @@ export const siteConfig = {
   location: 'Kangayam',
   bio: 'I craft premium digital experiences that blend beautiful design with flawless engineering. Passionate about creating products that make a difference.',
   social: {
-    github: 'https://github.com/yourusername',
+    github: 'https://github.com/vishaalcibi-ops',
     linkedin: 'https://linkedin.com/in/yourusername',
     twitter: 'https://twitter.com/yourusername',
     dribbble: 'https://dribbble.com/yourusername',
@@ -66,13 +66,32 @@ export const services = [
 
 export const projects = [
   {
+  title: "AI Skin Risk Detection System",
+
+  description:
+    "An AI-powered web application that analyzes skin images to provide a preliminary skin risk assessment. Built with a responsive interface and designed to encourage professional medical consultation.",
+
+  technologies: [
+    "React",
+    "Node.js",
+    "Express.js",
+    "MongoDB"
+  ],
+
+  liveUrl: "https://skin-risk-app-1.onrender.com/",
+
+  githubUrl: "https://github.com/vishaalcibi-ops/skin-risk-app",
+
+  image: "/projects/skin-risk.png"
+},
+  {
     title: 'Aura Finance',
     description:
       'A premium fintech dashboard with real-time analytics, portfolio tracking, and AI-powered insights.',
     image: '/assets/project-1.svg',
     tags: ['React', 'TypeScript', 'Tailwind', 'Chart.js'],
     liveUrl: '#',
-    githubUrl: '#',
+    githubUrl: "https://github.com/vishaalcibi-ops/my-portfolio",
     featured: true,
   },
   {
