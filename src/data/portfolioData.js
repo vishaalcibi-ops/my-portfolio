@@ -120,16 +120,26 @@ export const projects = [
   featured: true,
 },
 
-  {
-    title: "Pulse Health",
-    description:
-      "Healthcare app connecting patients with providers through telemedicine and health tracking.",
-    image: "/assets/project-3.svg",
-    tags: ["React Native", "Node.js", "MongoDB", "Socket.io"],
-    liveUrl: "#",
-    githubUrl: "#",
-    featured: true,
-  },
+ {
+  title: "Inventory Management System",
+  description:
+    "A web-based Inventory Management System that helps manage products, stock, suppliers, and sales efficiently. It includes secure login, inventory tracking, CRUD operations, and a user-friendly interface.",
+
+  image: "/assets/project-3.svg",
+
+  tags: [
+    "Java",
+    "JSP",
+    "Servlet",
+    "MySQL"
+  ],
+
+  liveUrl: "#",
+
+  githubUrl: "PASTE_YOUR_GITHUB_REPOSITORY_LINK_HERE",
+
+  featured: true,
+},
 
   {
     title: "Studio Creative",
