@@ -39,7 +39,7 @@ export const certifications = [
   {
     title: "NPTEL Certificate",
     issuer: "NPTEL",
-    image: "/assets/certificates/nptel.jpg",
+    image: "/assets/certificates/nptel.png",
   },
 ]
 
