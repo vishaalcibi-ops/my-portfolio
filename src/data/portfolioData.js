@@ -97,16 +97,28 @@ export const projects = [
   featured: true,
 },
 
-  {
-    title: "Nexus Commerce",
-    description:
-      "Modern e-commerce platform with seamless checkout, inventory management, and customer analytics.",
-    image: "/assets/project-2.svg",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Redis"],
-    liveUrl: "#",
-    githubUrl: "#",
-    featured: true,
-  },
+ {
+  title: "THREATGUARD-AI",
+  description:
+    "An AI-powered cybersecurity application designed to identify, analyze, and classify potential security threats. The system leverages modern AI techniques to improve threat detection and provide actionable security insights through an intuitive web interface.",
+
+  image: "/assets/project-2.svg",
+
+  tags: [
+    "Python",
+    "Machine Learning",
+    "Flask",
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+
+  liveUrl: "#",
+
+  githubUrl: "https://github.com/vishaalcibi-ops/THREATGUARD-AI",
+
+  featured: true,
+},
 
   {
     title: "Pulse Health",
