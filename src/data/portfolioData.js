@@ -24,29 +24,29 @@ export const navLinks = [
 
 export const skills = [
   { name: 'React', level: 80, category: 'Frontend' },
-  { name: 'Html', level: 98, category: 'Frontend' },
+  { name: 'Html', level: 99, category: 'Frontend' },
   { name: 'Node.js', level: 90, category: 'Backend' },
-  { name: 'Python', level: 95, category: 'Backend' },
-  { name: 'CSS', level: 97, category: 'Frontend' },
-  { name: 'MySQL', level: 99, category: 'Database' },
+  { name: 'Python', level: 90, category: 'Backend' },
+  { name: 'CSS', level: 98, category: 'Frontend' },
+  { name: 'MySQL', level: 97, category: 'Database' },
   { name: 'MongoDB', level: 85, category: 'Database' },
   { name: 'Jsp', level: 90, category: 'Backend' },
-  { name: 'Javascript', level: 90, category: 'Backend' },
-  { name: 'UX/UI Design', level: 70, category: 'Design' },
+  { name: 'Javascript', level: 85, category: 'Backend' },
+  { name: 'UX/UI Design', level: 85, category: 'Design' },
 ]
 
 export const services = [
   {
     icon: 'code',
-    title: 'Web Development',
+    title: 'Full Stack Web Development',
     description:
       'Building fast, scalable, and maintainable web applications with modern frameworks and best practices.',
   },
   {
-    icon: 'design',
-    title: 'UI/UX Design',
+    icon: 'HiWindow',
+    title: 'Frontend Development',
     description:
-      'Creating intuitive, beautiful interfaces that delight users and drive engagement.',
+      'Build modern, responsive, and user-friendly interfaces using HTML, CSS, JavaScript, React, and Bootstrap.',
   },
   {
     icon: 'mobile',
@@ -55,10 +55,10 @@ export const services = [
       'Crafting responsive and native-like mobile experiences that work seamlessly across devices.',
   },
   {
-    icon: 'consult',
-    title: 'Technical Consulting',
+    icon: 'HiServer',
+    title: 'Backend Development',
     description:
-      'Providing expert guidance on architecture, tech stack decisions, and development strategy.',
+      'Create secure backend applications, REST APIs, and server-side logic using Node.js, Java Servlets, and JSP.',
   },
 ]
 
