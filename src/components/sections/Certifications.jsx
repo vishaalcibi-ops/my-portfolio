@@ -26,7 +26,7 @@ const iconMap = {
 
 export default function Services() {
   return (
-    <Section id="services">
+    <Section id="certifications">
       <Container>
         <SectionHeading
           label="Services"
