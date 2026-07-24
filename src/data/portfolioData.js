@@ -16,7 +16,7 @@ export const siteConfig = {
 export const navLinks = [
   { name: 'About', href: '#about' },
   { name: 'Skills', href: '#skills' },
-  { name: 'Services', href: '#services' },
+  { name: 'Certifications', href: '#certifications' },
   { name: 'Projects', href: '#projects' },
   { name: 'Experience', href: '#experience' },
   { name: 'Contact', href: '#contact' },
@@ -35,30 +35,26 @@ export const skills = [
   { name: 'UX/UI Design', level: 85, category: 'Design' },
 ]
 
-export const services = [
+export const certifications = [
   {
-    icon: 'code',
-    title: 'Full Stack Web Development',
-    description:
-      'Building fast, scalable, and maintainable web applications with modern frameworks and best practices.',
+    title: "Java Web Development Internship",
+    issuer: "Techvolt Software Pvt. Ltd.",
+    image: "/assets/certificates/techvolt.jpg",
   },
   {
-    icon: 'HiWindow',
-    title: 'Frontend Development',
-    description:
-      'Build modern, responsive, and user-friendly interfaces using HTML, CSS, JavaScript, React, and Bootstrap.',
+    title: "NPTEL Certificate",
+    issuer: "NPTEL",
+    image: "/assets/certificates/nptel.jpg",
   },
   {
-    icon: 'mobile',
-    title: 'Mobile Development',
-    description:
-      'Crafting responsive and native-like mobile experiences that work seamlessly across devices.',
+    title: "MongoDB Certification",
+    issuer: "MongoDB",
+    image: "/assets/certificates/mongodb.jpg",
   },
   {
-    icon: 'HiServer',
-    title: 'Backend Development',
-    description:
-      'Create secure backend applications, REST APIs, and server-side logic using Node.js, Java Servlets, and JSP.',
+    title: "Infosys Springboard",
+    issuer: "Infosys",
+    image: "/assets/certificates/infosys.jpg",
   },
 ]
 
