@@ -36,6 +36,7 @@ export const skills = [
 ]
 
 export const certifications = [
+
   {
     title: "MongoDB Certificate 1",
     issuer: "MongoDB",
