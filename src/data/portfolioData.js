@@ -129,7 +129,7 @@ export const projects = [
   description:
     "A web-based Inventory Management System that helps manage products, stock, suppliers, and sales efficiently. It includes secure login, inventory tracking, CRUD operations, and a user-friendly interface.",
 
-  image: "/assets/project-3.svg",
+  image: "/assets/inventory-management.png",
 
   tags: [
     "Java",
