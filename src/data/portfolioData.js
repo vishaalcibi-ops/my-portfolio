@@ -153,36 +153,28 @@ export const projects = [
 
 export const experience = [
   {
-    role: 'Senior Frontend Engineer',
-    company: 'TechCorp Inc.',
-    period: '2023 — Present',
+    role: 'Java Full Stack Development Intern',
+    company: 'TechVolt Software',
+    period: '2026',
     description:
-      'Leading frontend architecture for enterprise SaaS products. Mentoring junior developers and establishing design system standards.',
-    highlights: ['React', 'TypeScript', 'Design Systems', 'Team Lead'],
+      'Completed a 15-day internship in Java Full Stack Development. Gained hands-on experience in Java, Servlets, JSP, MySQL, and web application development through practical projects.',
+    highlights: ['Java', 'Servlets', 'JSP', 'MySQL'],
   },
   {
-    role: 'Full Stack Developer',
-    company: 'StartupXYZ',
-    period: '2021 — 2023',
+    role: 'Computer Science & Engineering Student',
+    company: 'Kangayam Institute of Technology',
+    period: '2024 – Present',
     description:
-      'Built and shipped multiple product features from concept to production. Reduced page load times by 60%.',
-    highlights: ['Node.js', 'React', 'AWS', 'PostgreSQL'],
+      'Currently pursuing a Bachelor of Engineering in Computer Science and Engineering. Building strong knowledge in full stack development, data structures, databases, and software engineering through academic and personal projects.',
+    highlights: ['Java', 'Python', 'React', 'MongoDB'],
   },
   {
-    role: 'UI/UX Designer',
-    company: 'Creative Agency',
-    period: '2019 — 2021',
+    role: 'Full Stack Web Development Projects',
+    company: 'Personal Projects',
+    period: '2025 – Present',
     description:
-      'Designed user interfaces for Fortune 500 clients. Conducted user research and usability testing.',
-    highlights: ['Figma', 'User Research', 'Prototyping', 'Design Systems'],
-  },
-  {
-    role: 'Junior Developer',
-    company: 'Digital Studio',
-    period: '2017 — 2019',
-    description:
-      'Started my journey building responsive websites and learning modern web development practices.',
-    highlights: ['HTML/CSS', 'JavaScript', 'WordPress', 'PHP'],
+      'Developed multiple full stack web applications, including an AI Skin Risk Detection System, Inventory Management System, ThreatGuard-AI, and a Personal Portfolio Website.',
+    highlights: ['React', 'Node.js', 'Express.js', 'MongoDB'],
   },
 ]
 
