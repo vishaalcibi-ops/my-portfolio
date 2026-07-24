@@ -81,7 +81,7 @@ export const projects = [
   description:
     "A modern, responsive portfolio website built to showcase my skills, projects, and professional experience. Designed with a clean UI, smooth animations, dark/light mode, and optimized for performance.",
 
-  image: "/assets/project-1.svg",
+  image: "public/assets/portfolio.png",
 
   tags: [
     "React",
