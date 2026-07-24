@@ -186,6 +186,21 @@ export const testimonials = [
     role: "Software Developer, Techvolt Software Pvt. Ltd.",
     avatar: "/assets/avatar-1.svg",
   },
+
+  {
+    quote:
+      'Working together was seamless. The attention to detail and commitment to user experience made all the difference in our product launch.',
+    author: 'Michael Chen',
+    role: 'Product Manager, StartupXYZ',
+    avatar: '/assets/avatar-2.svg',
+  },
+  {
+    quote:
+      'Transformed our vision into a stunning digital experience. The portfolio speaks for itself — truly premium work.',
+    author: 'Emily Rodriguez',
+    role: 'Creative Director, Studio Creative',
+    avatar: '/assets/avatar-3.svg',
+  },
 ]
 
 export const stats = [
