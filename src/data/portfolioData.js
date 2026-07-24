@@ -6,7 +6,7 @@ export const siteConfig = {
   bio: 'I craft premium digital experiences that blend beautiful design with flawless engineering. Passionate about creating products that make a difference.',
   social: {
     github: 'https://github.com/vishaalcibi-ops',
-    linkedin: 'https://linkedin.com/in/yourusername',
+    linkedin: 'https://linkedin.com/in/vishaal-p-7841a1331',
     twitter: 'https://twitter.com/yourusername',
     dribbble: 'https://dribbble.com/yourusername',
   },
