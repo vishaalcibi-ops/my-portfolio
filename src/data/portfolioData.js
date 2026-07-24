@@ -198,3 +198,20 @@ export const stats = [
   { value: '15+', label: 'Certifications' },
   { value: '1+', label: 'Internship Completed' },
 ]
+export const services = [
+  {
+    title: "Full Stack Web Development",
+    description:
+      "Building complete web applications using React, Node.js, Express.js, and databases.",
+  },
+  {
+    title: "Frontend Development",
+    description:
+      "Creating responsive and modern user interfaces with React, JavaScript, HTML, and CSS.",
+  },
+  {
+    title: "Backend Development",
+    description:
+      "Developing APIs, server-side logic, authentication, and database integration.",
+  },
+]
