@@ -74,6 +74,7 @@ export const projects = [
     liveUrl: "https://skin-risk-app-1.onrender.com/",
     githubUrl: "https://github.com/vishaalcibi-ops/skin-risk-app",
     featured: true,
+    image: "/assets/skin-risk.png",
   },
 
  {
