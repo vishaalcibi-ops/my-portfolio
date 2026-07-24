@@ -23,18 +23,16 @@ export const navLinks = [
 ]
 
 export const skills = [
-  { name: 'React', level: 95, category: 'Frontend' },
-  { name: 'TypeScript', level: 90, category: 'Frontend' },
-  { name: 'Node.js', level: 85, category: 'Backend' },
-  { name: 'Python', level: 80, category: 'Backend' },
-  { name: 'Figma', level: 92, category: 'Design' },
-  { name: 'Tailwind CSS', level: 95, category: 'Frontend' },
-  { name: 'PostgreSQL', level: 78, category: 'Backend' },
-  { name: 'AWS', level: 75, category: 'DevOps' },
-  { name: 'Framer Motion', level: 88, category: 'Frontend' },
-  { name: 'GraphQL', level: 82, category: 'Backend' },
-  { name: 'UI/UX Design', level: 90, category: 'Design' },
-  { name: 'Docker', level: 70, category: 'DevOps' },
+  { name: 'React', level: 80, category: 'Frontend' },
+  { name: 'Html', level: 98, category: 'Frontend' },
+  { name: 'Node.js', level: 90, category: 'Backend' },
+  { name: 'Python', level: 95, category: 'Backend' },
+  { name: 'CSS', level: 97, category: 'Frontend' },
+  { name: 'MySQL', level: 99, category: 'Database' },
+  { name: 'MongoDB', level: 85, category: 'Database' },
+  { name: 'Jsp', level: 90, category: 'Backend' },
+  { name: 'Javascript', level: 90, category: 'Backend' },
+  { name: 'UX/UI Design', level: 70, category: 'Design' },
 ]
 
 export const services = [
