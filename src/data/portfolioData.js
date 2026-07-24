@@ -41,6 +41,31 @@ export const certifications = [
     issuer: "NPTEL",
     image: "/assets/certificates/nptel.png",
   },
+  {
+    title: "MongoDB Certificate 1",
+    issuer: "MongoDB",
+    image: "/assets/certificates/mongodb-1.png",
+  },
+  {
+    title: "MongoDB Certificate 2",
+    issuer: "MongoDB",
+    image: "/assets/certificates/mongodb-2.png",
+  },
+  {
+    title: "MongoDB Certificate 3",
+    issuer: "MongoDB",
+    image: "/assets/certificates/mongodb-3.png",
+  },
+  {
+    title: "MongoDB Certificate 4",
+    issuer: "MongoDB",
+    image: "/assets/certificates/mongodb-4.png",
+  },
+  {
+    title: "MongoDB Certificate 5",
+    issuer: "MongoDB",
+    image: "/assets/certificates/mongodb-5.png",
+  },
 ]
 
 export const projects = [
