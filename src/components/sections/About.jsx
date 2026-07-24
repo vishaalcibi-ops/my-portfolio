@@ -16,7 +16,15 @@ export default function About() {
         <SectionHeading
           label="About Me"
           title="Passionate about crafting digital excellence"
-          description="I blend creativity with technical expertise to build products that users love."
+          description="Hi, I'm Vishaal P, a third-year Computer Science and Engineering student at Kangayam Institute of Technology, pursuing a Bachelor of Engineering (B.E.). I am passionate about Full Stack Web Development and enjoy building modern, responsive, and user-friendly web applications.
+
+I have knowledge of Java, Python, JavaScript, C, and C++. My technical skills include HTML, CSS, React, Bootstrap, Node.js, Servlets, JSP, MongoDB, MySQL, GitHub, and LinkedIn. I enjoy learning new technologies and applying them to real-world projects.
+
+I have completed four projects that helped me strengthen my skills in frontend development, backend development, and database management. I also completed a 15-day Java Full Stack Development Internship at InnTechVolt, where I gained practical experience in software development.
+
+In addition, I have earned several certifications from NPTEL, Infosys Springboard, and MongoDB and actively participate in technical learning programs to improve my knowledge.
+
+I am a quick learner, a good team player, and always eager to learn new technologies. My goal is to start my career as a Full Stack Developer and contribute to building innovative and impactful software solutions."
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
