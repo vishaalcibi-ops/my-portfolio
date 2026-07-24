@@ -76,16 +76,26 @@ export const projects = [
     featured: true,
   },
 
-  {
-    title: "Aura Finance",
-    description:
-      "A premium fintech dashboard with real-time analytics, portfolio tracking, and AI-powered insights.",
-    image: "/assets/project-1.svg",
-    tags: ["React", "TypeScript", "Tailwind", "Chart.js"],
-    liveUrl: "#",
-    githubUrl: "https://github.com/vishaalcibi-ops/my-portfolio",
-    featured: true,
-  },
+ {
+  title: "Personal Portfolio Website",
+  description:
+    "A modern, responsive portfolio website built to showcase my skills, projects, and professional experience. Designed with a clean UI, smooth animations, dark/light mode, and optimized for performance.",
+
+  image: "/assets/project-1.svg",
+
+  tags: [
+    "React",
+    "Vite",
+    "Tailwind CSS",
+    "Framer Motion"
+  ],
+
+  liveUrl: "https://my-portfolio-mu-seven-n80tj6h3dn.vercel.app",
+
+  githubUrl: "https://github.com/vishaalcibi-ops/my-portfolio",
+
+  featured: true,
+},
 
   {
     title: "Nexus Commerce",
