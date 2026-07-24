@@ -15,13 +15,14 @@ import Card from '../ui/Card'
 
 const iconMap = {
   code: HiCodeBracket,
-  frontend: HiComputerDesktop,
-  backend: HiServer,
-  database: HiCircleStack,
+  frontend: HiCodeBracket,
+  backend: HiCodeBracket,
+  database: HiCodeBracket,
   design: HiPaintBrush,
   mobile: HiDevicePhoneMobile,
   consult: HiLightBulb,
 }
+
 
 export default function Services() {
   return (
@@ -38,7 +39,7 @@ export default function Services() {
           stagger={0.1}
         >
           {services.map((service) => {
-            const Icon = iconMap[service.icon]
+            const Icon = iconMap[service.icon] || HiCodeBracket;
 
             return (
               <StaggerItem key={service.title}>
