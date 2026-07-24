@@ -106,7 +106,7 @@ export const projects = [
   description:
     "An AI-powered cybersecurity application designed to identify, analyze, and classify potential security threats. The system leverages modern AI techniques to improve threat detection and provide actionable security insights through an intuitive web interface.",
 
-  image: "/assets/project-2.svg",
+  image: "/assets/threatguard-ai.png",
 
   tags: [
     "Python",
