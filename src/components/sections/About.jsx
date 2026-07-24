@@ -59,7 +59,7 @@ export default function About() {
                 I have completed <strong>four full-stack projects</strong> that strengthened
                 my skills in frontend development, backend development, and database
                 management. I also completed a <strong>15-day Java Full Stack Development
-                Internship at InnTechVolt</strong>, where I gained practical industry
+                Internship at TechVolt Software Company</strong>, where I gained practical industry
                 experience.
               </p>
 
