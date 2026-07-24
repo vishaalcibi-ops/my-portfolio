@@ -40,7 +40,7 @@ export const certifications = [
   {
     title: "MongoDB Certificate 1",
     issuer: "MongoDB",
-    image: "/assets/certificates/mongodb-1.jpg",
+    image: "/assets/certificates/mongodb-1.png",
   },
   {
     title: "MongoDB Certificate 2",
