@@ -26,6 +26,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
+          {/* Badge */}
           <motion.span
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -33,28 +34,32 @@ export default function Hero() {
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm font-medium text-gray-300 mb-6"
           >
             <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
+              <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500"></span>
             </span>
 
             Available for Freelance Work
           </motion.span>
 
+          {/* Heading */}
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-            Hi, I'm{" "}
+            Hi, I'm{' '}
             <span className="gradient-text">
               {siteConfig.name}
             </span>
           </h1>
 
+          {/* Job Title */}
           <p className="mt-5 text-2xl text-gray-300">
             {siteConfig.title}
           </p>
 
-          <p className="mt-6 max-w-2xl mx-auto text-lg text-gray-400">
+          {/* Bio */}
+          <p className="mt-6 max-w-2xl mx-auto text-lg text-gray-400 leading-8">
             {siteConfig.bio}
           </p>
 
+          {/* Buttons */}
           <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
             <Button href="#projects">
               View My Work
@@ -66,33 +71,37 @@ export default function Hero() {
             </Button>
           </div>
 
-          <div className="mt-10 flex justify-center gap-5">
+          {/* Social Icons */}
+          <div className="mt-10 flex items-center justify-center gap-6">
             <a
               href={siteConfig.social.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-3xl hover:text-blue-500 transition"
+              aria-label="GitHub"
+              className="flex h-12 w-12 items-center justify-center rounded-full bg-gray-800 text-white hover:bg-blue-600 hover:scale-110 transition-all duration-300"
             >
-              <FaGithub />
+              <FaGithub size={24} />
             </a>
 
             <a
               href={siteConfig.social.linkedin}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-3xl hover:text-blue-500 transition"
+              aria-label="LinkedIn"
+              className="flex h-12 w-12 items-center justify-center rounded-full bg-gray-800 text-white hover:bg-blue-600 hover:scale-110 transition-all duration-300"
             >
-              <FaLinkedin />
+              <FaLinkedin size={24} />
             </a>
           </div>
         </motion.div>
 
+        {/* Scroll Down */}
         <motion.a
           href="#about"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.2 }}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center text-gray-400 hover:text-blue-500"
+          className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center text-gray-400 hover:text-blue-500 transition-colors"
         >
           <span className="text-xs uppercase tracking-widest">
             Scroll
@@ -100,7 +109,10 @@ export default function Hero() {
 
           <motion.div
             animate={{ y: [0, 8, 0] }}
-            transition={{ repeat: Infinity, duration: 1.5 }}
+            transition={{
+              repeat: Infinity,
+              duration: 1.5,
+            }}
           >
             <HiArrowDown className="w-5 h-5" />
           </motion.div>
