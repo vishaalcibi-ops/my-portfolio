@@ -37,24 +37,14 @@ export const skills = [
 
 export const certifications = [
   {
-    title: "Java Web Development Internship",
-    issuer: "Techvolt Software Pvt. Ltd.",
-    image: "/assets/certificates/techvolt.jpg",
-  },
-  {
-    title: "NPTEL Certificate",
-    issuer: "NPTEL",
-    image: "/assets/certificates/nptel.jpg",
-  },
-  {
-    title: "MongoDB Certification",
+    title: "MongoDB Certificate 1",
     issuer: "MongoDB",
-    image: "/assets/certificates/mongodb.jpg",
+    image: "/assets/certificates/mongodb-1.jpg",
   },
   {
-    title: "Infosys Springboard",
-    issuer: "Infosys",
-    image: "/assets/certificates/infosys.jpg",
+    title: "MongoDB Certificate 2",
+    issuer: "MongoDB",
+    image: "/assets/certificates/mongodb-2.jpg",
   },
 ]
 
