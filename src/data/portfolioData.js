@@ -66,62 +66,57 @@ export const services = [
 
 export const projects = [
   {
-  title: "AI Skin Risk Detection System",
-
-  description:
-    "An AI-powered web application that analyzes skin images to provide a preliminary skin risk assessment. Built with a responsive interface and designed to encourage professional medical consultation.",
-
-  technologies: [
-    "React",
-    "Node.js",
-    "Express.js",
-    "MongoDB"
-  ],
-
-  liveUrl: "https://skin-risk-app-1.onrender.com/",
-
-  githubUrl: "https://github.com/vishaalcibi-ops/skin-risk-app",
-
-  image: "/projects/skin-risk.png"
-},
-  {
-    title: 'Aura Finance',
+    title: "AI Skin Risk Detection System",
     description:
-      'A premium fintech dashboard with real-time analytics, portfolio tracking, and AI-powered insights.',
-    image: '/assets/project-1.svg',
-    tags: ['React', 'TypeScript', 'Tailwind', 'Chart.js'],
-    liveUrl: '#',
+      "An AI-powered web application that analyzes skin images to provide a preliminary skin risk assessment. Built with React, Node.js, Express.js, and MongoDB.",
+    image: "/assets/project-1.svg",
+    tags: ["React", "Node.js", "Express.js", "MongoDB"],
+    liveUrl: "https://skin-risk-app-1.onrender.com/",
+    githubUrl: "https://github.com/vishaalcibi-ops/skin-risk-app",
+    featured: true,
+  },
+
+  {
+    title: "Aura Finance",
+    description:
+      "A premium fintech dashboard with real-time analytics, portfolio tracking, and AI-powered insights.",
+    image: "/assets/project-1.svg",
+    tags: ["React", "TypeScript", "Tailwind", "Chart.js"],
+    liveUrl: "#",
     githubUrl: "https://github.com/vishaalcibi-ops/my-portfolio",
     featured: true,
   },
+
   {
-    title: 'Nexus Commerce',
+    title: "Nexus Commerce",
     description:
-      'Modern e-commerce platform with seamless checkout, inventory management, and customer analytics.',
-    image: '/assets/project-2.svg',
-    tags: ['Next.js', 'Stripe', 'PostgreSQL', 'Redis'],
-    liveUrl: '#',
-    githubUrl: '#',
+      "Modern e-commerce platform with seamless checkout, inventory management, and customer analytics.",
+    image: "/assets/project-2.svg",
+    tags: ["Next.js", "Stripe", "PostgreSQL", "Redis"],
+    liveUrl: "#",
+    githubUrl: "#",
     featured: true,
   },
+
   {
-    title: 'Pulse Health',
+    title: "Pulse Health",
     description:
-      'Healthcare app connecting patients with providers through telemedicine and health tracking.',
-    image: '/assets/project-3.svg',
-    tags: ['React Native', 'Node.js', 'MongoDB', 'Socket.io'],
-    liveUrl: '#',
-    githubUrl: '#',
+      "Healthcare app connecting patients with providers through telemedicine and health tracking.",
+    image: "/assets/project-3.svg",
+    tags: ["React Native", "Node.js", "MongoDB", "Socket.io"],
+    liveUrl: "#",
+    githubUrl: "#",
     featured: true,
   },
+
   {
-    title: 'Studio Creative',
+    title: "Studio Creative",
     description:
-      'Portfolio and project management platform for creative agencies and freelancers.',
-    image: '/assets/project-4.svg',
-    tags: ['Vue.js', 'Firebase', 'GSAP', 'Cloudinary'],
-    liveUrl: '#',
-    githubUrl: '#',
+      "Portfolio and project management platform for creative agencies and freelancers.",
+    image: "/assets/project-4.svg",
+    tags: ["Vue.js", "Firebase", "GSAP", "Cloudinary"],
+    liveUrl: "#",
+    githubUrl: "#",
     featured: false,
   },
 ]
