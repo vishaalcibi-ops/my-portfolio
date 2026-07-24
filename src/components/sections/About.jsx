@@ -15,16 +15,8 @@ export default function About() {
       <Container>
         <SectionHeading
           label="About Me"
-          title="Passionate about crafting digital excellence"
-          description="Hi, I'm Vishaal P, a third-year Computer Science and Engineering student at Kangayam Institute of Technology, pursuing a Bachelor of Engineering (B.E.). I am passionate about Full Stack Web Development and enjoy building modern, responsive, and user-friendly web applications.
-
-I have knowledge of Java, Python, JavaScript, C, and C++. My technical skills include HTML, CSS, React, Bootstrap, Node.js, Servlets, JSP, MongoDB, MySQL, GitHub, and LinkedIn. I enjoy learning new technologies and applying them to real-world projects.
-
-I have completed four projects that helped me strengthen my skills in frontend development, backend development, and database management. I also completed a 15-day Java Full Stack Development Internship at InnTechVolt, where I gained practical experience in software development.
-
-In addition, I have earned several certifications from NPTEL, Infosys Springboard, and MongoDB and actively participate in technical learning programs to improve my knowledge.
-
-I am a quick learner, a good team player, and always eager to learn new technologies. My goal is to start my career as a Full Stack Developer and contribute to building innovative and impactful software solutions."
+          title="Passionate about Full Stack Web Development"
+          description="A Computer Science and Engineering student who enjoys building modern, responsive, and user-friendly web applications while continuously learning new technologies."
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
@@ -33,13 +25,11 @@ I am a quick learner, a good team player, and always eager to learn new technolo
           <FadeIn>
             <div className="relative">
               <div className="aspect-square max-w-md mx-auto lg:mx-0 rounded-3xl overflow-hidden glass-card">
-
                 <img
                   src="/images/vishaal.jpeg"
                   alt="Vishaal P"
                   className="w-full h-full object-cover"
                 />
-
               </div>
 
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-apple-blue/20 rounded-2xl blur-xl -z-10"></div>
@@ -51,17 +41,34 @@ I am a quick learner, a good team player, and always eager to learn new technolo
             <div className="space-y-6">
 
               <p className="text-base sm:text-lg text-apple-gray-400 leading-relaxed">
-                I am <strong>Vishaal P</strong>, a passionate Full Stack Web Developer
-                specializing in React, Node.js, Express.js, and MongoDB. I enjoy
-                building modern, responsive, and user-friendly web applications that
-                solve real-world problems.
+                Hi, I'm <strong>Vishaal P</strong>, a third-year Computer Science and
+                Engineering student at <strong>Kangayam Institute of Technology</strong>.
+                I am passionate about Full Stack Web Development and enjoy creating
+                modern, responsive, and user-friendly web applications.
               </p>
 
               <p className="text-base sm:text-lg text-apple-gray-400 leading-relaxed">
-                My goal is to help businesses and startups build high-quality web
-                applications with clean code, responsive design, and excellent user
-                experience. I continuously learn new technologies and always focus on
-                delivering reliable and professional solutions.
+                I have knowledge of <strong>Java, Python, JavaScript, C, and C++</strong>.
+                My technical skills include <strong>HTML, CSS, React, Bootstrap,
+                Node.js, Servlets, JSP, MongoDB, MySQL, GitHub, and LinkedIn</strong>.
+                I enjoy learning new technologies and applying them to real-world
+                projects.
+              </p>
+
+              <p className="text-base sm:text-lg text-apple-gray-400 leading-relaxed">
+                I have completed <strong>four full-stack projects</strong> that strengthened
+                my skills in frontend development, backend development, and database
+                management. I also completed a <strong>15-day Java Full Stack Development
+                Internship at InnTechVolt</strong>, where I gained practical industry
+                experience.
+              </p>
+
+              <p className="text-base sm:text-lg text-apple-gray-400 leading-relaxed">
+                I have earned certifications from <strong>NPTEL, Infosys Springboard,
+                and MongoDB</strong>, and I actively participate in technical learning
+                programs to improve my skills. My goal is to begin my career as a
+                <strong> Full Stack Developer</strong> and contribute to building
+                innovative, high-quality software solutions.
               </p>
 
               <StaggerContainer
