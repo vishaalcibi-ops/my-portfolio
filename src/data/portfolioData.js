@@ -181,24 +181,10 @@ export const experience = [
 export const testimonials = [
   {
     quote:
-      'An exceptional developer who combines technical excellence with an eye for design. Delivered our project ahead of schedule with outstanding quality.',
-    author: 'Sarah Johnson',
-    role: 'CEO, TechCorp Inc.',
-    avatar: '/assets/avatar-1.svg',
-  },
-  {
-    quote:
-      'Working together was seamless. The attention to detail and commitment to user experience made all the difference in our product launch.',
-    author: 'Michael Chen',
-    role: 'Product Manager, StartupXYZ',
-    avatar: '/assets/avatar-2.svg',
-  },
-  {
-    quote:
-      'Transformed our vision into a stunning digital experience. The portfolio speaks for itself — truly premium work.',
-    author: 'Emily Rodriguez',
-    role: 'Creative Director, Studio Creative',
-    avatar: '/assets/avatar-3.svg',
+      "Vishaal demonstrated a positive attitude, professional conduct, and a strong willingness to learn throughout the internship. He actively participated in training sessions, completed assigned tasks with sincerity and commitment, and consistently followed company guidelines. His dedication and eagerness to acquire new knowledge reflect a strong foundation for academic and professional growth.",
+    author: "P. Keerthana",
+    role: "Software Developer, Techvolt Software Pvt. Ltd.",
+    avatar: "/assets/avatar-1.svg",
   },
 ]
 
