@@ -21,16 +21,16 @@ export const navLinks = [
 ]
 
 export const skills = [
-  { name: 'React', level: 80, category: 'Frontend' },
-  { name: 'Html', level: 99, category: 'Frontend' },
-  { name: 'Node.js', level: 90, category: 'Backend' },
-  { name: 'Python', level: 90, category: 'Backend' },
-  { name: 'CSS', level: 98, category: 'Frontend' },
-  { name: 'MySQL', level: 97, category: 'Database' },
-  { name: 'MongoDB', level: 85, category: 'Database' },
-  { name: 'Jsp', level: 90, category: 'Backend' },
-  { name: 'Javascript', level: 85, category: 'Backend' },
-  { name: 'UX/UI Design', level: 85, category: 'Design' },
+  { name: 'React', level: 70, category: 'Frontend' },
+  { name: 'Html', level: 80, category: 'Frontend' },
+  { name: 'Node.js', level: 75, category: 'Backend' },
+  { name: 'Python', level: 79, category: 'Backend' },
+  { name: 'CSS', level: 85, category: 'Frontend' },
+  { name: 'MySQL', level: 89, category: 'Database' },
+  { name: 'MongoDB', level: 70, category: 'Database' },
+  { name: 'Jsp', level: 70, category: 'Backend' },
+  { name: 'Javascript', level: 65, category: 'Frontend' },
+  { name: 'UX/UI Design', level: 68, category: 'Design' },
 ]
 
 export const certifications = [
@@ -216,7 +216,7 @@ export const testimonials = [
 ]
 
 export const stats = [
-  { value: '3+', label: 'Years Experience' },
+  { value: '10+', label: 'Technology' },
   { value: '4+', label: 'Projects Completed' },
   { value: '15+', label: 'Certifications' },
   { value: '1+', label: 'Internship Completed' },
