@@ -8,7 +8,7 @@ export const siteConfig = {
     github: 'https://github.com/vishaalcibi-ops',
     linkedin: 'https://linkedin.com/in/vishaal-p-7841a1331',
   },
-  resumeUrl: '#',
+  resumeUrl: '/assets/resume/Vishaal_P_Resume.pdf',
 }
 
 export const navLinks = [
