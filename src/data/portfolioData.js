@@ -64,6 +64,21 @@ export const certifications = [
     issuer: "MongoDB",
     image: "/assets/certificates/mongodb-5.png",
   },
+  {
+  title: "Describe Cloud Computing",
+  issuer: "Microsoft Learn",
+  image: "/assets/certificates/cloud-1.png",
+},
+{
+  title: "Describe the Core Architectural Components of Azure",
+  issuer: "Microsoft Learn",
+  image: "/assets/certificates/cloud-2.png",
+},
+{
+  title: "Describe Cost Management in Azure",
+  issuer: "Microsoft Learn",
+  image: "/assets/certificates/cloud-3.png",
+},
 ]
 
 export const projects = [
