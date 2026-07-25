@@ -83,15 +83,15 @@ export const certifications = [
 
 export const projects = [
   {
-    title: "AI Skin Risk Detection System",
-    description:
-      "An AI-powered web application that analyzes skin images to provide a preliminary skin risk assessment. Built with React, Node.js, Express.js, and MongoDB.",
-    image: "/assets/skin-risk.png",
-    tags: ["React", "Node.js", "Express.js", "MongoDB"],
-    liveUrl: "https://skin-risk-app-1.onrender.com/",
-    githubUrl: "https://github.com/vishaalcibi-ops/skin-risk-app",
-    featured: true,
-  },
+  title: "AI Skin Risk Detection System",
+  description:
+    "An AI-powered web application that analyzes skin images to provide a preliminary skin risk assessment. Built using React, Node.js, Express.js, and MongoDB with secure authentication and image upload functionality.",
+  image: "/assets/skin-risk-project1.png",
+  tags: ["React", "Node.js", "Express.js", "MongoDB"],
+  liveUrl: "https://skin-risk-app-1.onrender.com/",
+  githubUrl: "https://github.com/vishaalcibi-ops/skin-risk-app",
+  featured: true,
+},
 
  {
   title: "Personal Portfolio Website",
