@@ -7,8 +7,6 @@ export const siteConfig = {
   social: {
     github: 'https://github.com/vishaalcibi-ops',
     linkedin: 'https://linkedin.com/in/vishaal-p-7841a1331',
-    twitter: 'https://twitter.com/yourusername',
-    dribbble: 'https://dribbble.com/yourusername',
   },
   resumeUrl: '#',
 }
