@@ -1,12 +1,10 @@
-import { FaGithub, FaLinkedin, FaTwitter, FaDribbble, FaHeart } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaHeart } from 'react-icons/fa'
 import { navLinks, siteConfig } from '../../data/portfolioData'
 import Container, { FadeIn } from '../ui/Container'
 
 const socialIcons = [
   { icon: FaGithub, href: siteConfig.social.github, label: 'GitHub' },
   { icon: FaLinkedin, href: siteConfig.social.linkedin, label: 'LinkedIn' },
-  { icon: FaTwitter, href: siteConfig.social.twitter, label: 'Twitter' },
-  { icon: FaDribbble, href: siteConfig.social.dribbble, label: 'Dribbble' },
 ]
 
 export default function Footer() {
