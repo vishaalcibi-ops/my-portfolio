@@ -3,7 +3,7 @@ export const siteConfig = {
   title: 'Full Stack Web Developer',
   email: 'vishaalcibi@gmail.com',
   location: 'Kangayam',
-  bio: 'Aspiring Full Stack Developer and Computer Science Engineering student with hands-on experience in React, Node.js, Java, MongoDB, and MySQL. Passionate about building modern web applications and solving real-world problems through technology.',
+  bio: 'Aspiring Full Stack Developer and Computer Science Engineering student with hands-on experience in React, Node.js, Java, MongoDB, and MySQL. Passionate about building modern, scalable web applications and solving real-world problems through technology.',
   social: {
     github: 'https://github.com/vishaalcibi-ops',
     linkedin: 'https://linkedin.com/in/vishaal-p-7841a1331',
